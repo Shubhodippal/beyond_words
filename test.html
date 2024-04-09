@@ -3,13 +3,30 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Welcome to Beyond Words</title>
-  <link rel="stylesheet" href="style.css"/>
+  <title>My Website</title>
+  <style>
+    #intro {
+      position: fixed;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      z-index: 999;
+      background-color: black;
+    }
+
+    #intro video {
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+    }
+  </style>
 </head>
 <body>
   <div id="intro">
     <video id="introVideo" muted autoplay controls>
-      <source src="animation2.mp4" type="video/mp4">
+      <source src="animation.mp4" type="video/mp4">
     </video>
   </div>
 
@@ -30,15 +47,8 @@
     });
   </script>
 
-  <div class="navigation">
-    <a href="about.html"><button>About us </button></a>
-  </div>
-  <div class="container">
-    <h1>Welcome to Beyond Words</h1>
-    <p>Let's unlock the hidden language of emotions</p>
-    <p>At Beyond Words, we unlock the power of emotional analysis through audio and video. Our innovative technology delves deeper, uncovering the unspoken feelings hidden within conversations and interactions.</p>
-    <br/>
-    <a href="https://beyondwords.streamlit.app/" class="button">Get Started</a>
-  </div>
+  <h1>Welcome to my website!</h1>
+  <p>This is the main content of the page.</p>
+
 </body>
 </html>
