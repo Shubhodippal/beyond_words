@@ -12,23 +12,7 @@
       <source src="animation2.mp4" type="video/mp4">
     </video>
   </div>
-
-  <script>
-    const hasSeenIntro = document.cookie.split(';').some(cookie => cookie.startsWith('seenIntro='));
-
-    if (!hasSeenIntro) {
-      // Show intro video
-      document.getElementById('intro').style.display = 'block';
-      document.cookie = "seenIntro=true; expires=Thu, 31 Dec 2025 23:59:59 GMT; path=/";
-    } else {
-      // Hide intro video
-    }
-
-    const video = document.getElementById('introVideo');
-    video.addEventListener('ended', () => {
-      document.getElementById('intro').style.display = 'none';
-    });
-  </script>
+  <script src="main.js"></script>
 
   <div class="navigation">
     <a href="about.html"><button>About us </button></a>
