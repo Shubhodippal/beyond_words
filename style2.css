@@ -15,7 +15,7 @@ body {
   .container {
     text-align: center;
     padding: 2rem;
-    background-color: rgba(230, 250, 255, 0.3); /* Semi-transparent white background */
+    background-color: rgba(161, 209, 221, 0); /* Semi-transparent white background */
     border-radius: 5px;
     box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
     margin: 0 auto; /* Center the container horizontally */

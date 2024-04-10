@@ -27,10 +27,11 @@ body {
 .container {
   animation: slide-up 1s ease-out forwards;
   text-align: center;
+  opacity: 0.1;
   padding: 2rem;
-  background-color: rgba(135, 206, 250, 0.5); /* Semi-transparent sky background */
+  background-color: rgba(144, 178, 200, 0); /* Semi-transparent sky background */
   border-radius: 5px;
-  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  box-shadow: 0 2px 5px rgba(236, 213, 213, 0);
   margin: 0 auto; /* Center the container horizontally */
   max-width: 800px; /* Optional: Set a maximum width for the container */
 }
